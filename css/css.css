@@ -1,0 +1,27 @@
+.btn {
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn__green {
+  background-color: green;
+}
+
+.btn__red {
+  background-color: red;
+}
+
+.btn__green:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+}
+
+.btn__red:hover {
+  background-color: darkred;
+  cursor: pointer;
+}
